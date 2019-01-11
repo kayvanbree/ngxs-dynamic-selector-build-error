@@ -1,5 +1,6 @@
 import {State, Selector, createSelector} from '@ngxs/store';
 ​
+// @dynamic
 @State<string[]>({
   name: 'animals',
   defaults: [
